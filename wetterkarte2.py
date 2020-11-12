@@ -54,7 +54,7 @@ for n in range(len(lons)-1):
                          fill_color = hcol).add_to(map_ws)
                          
      
-#save new file and oper browser    
+#save new file and open browser    
 CWD = os.getcwd()
 map_ws.save("wetterkarte.html")
 webbrowser.open_new_tab('file://'+CWD+'/'+'wetterkarte.html')
